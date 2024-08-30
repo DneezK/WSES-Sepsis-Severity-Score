@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+<script src="jquery.min.js"></script>
+
+            <fieldset id="extra-features">
+            <legend><h2>WSES sepsis severity score</h2></legend>
+		</br>
+            <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="3" data-toggle="checkbox"> Severe sepsis (acute organ dysfunction) at the admission</label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="5" data-toggle="checkbox"> Septic shock (acute circulatory failure characterized by persistent arterial hypotension. It always requires vasopressor agents) at the admission </label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="2" data-toggle="checkbox"> Healthcare associated infection </label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="2" data-toggle="checkbox"> Colonic non-diverticular perforation peritonitis </label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="3" data-toggle="checkbox"> Small bowel perforation peritonitis </label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="2" data-toggle="checkbox"> Diverticular diffuse peritonitis </label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="2" data-toggle="checkbox"> Post-operative diffuse peritonitis </label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="3" data-toggle="checkbox"> Delayed initial intervention [Preoperative duration of peritonitis (localized or diffuse) > 24 h)] </label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="2" data-toggle="checkbox"> Age>70 </label>
+            </div><br/>
+	    <div class="checkbox">
+                <label> <input type="checkbox" name="checkbox" id="outside" class="sum" value="3" data-toggle="checkbox"> Immunosuppression (chronic glucocorticoids, immunosuppresant agents, chemotherapy, lymphatic diseases, virus) </label>
+            </div>
+        </fieldset>
+    </br>
+        <div><h3>Total Score: <input style="border:0;font-style: italic;font-weight: bold;font-size: 1em" id="total"></input></h3></div>
+        <div><h3>Mortality rate: <input style="border:0;font-style: italic;font-weight: bold;font-size: 1em;text-align:right" size="1" id="rate"></input>%</h3></div>
+	</br>
+	<button style="font-size: 2em; float: right" onclick="uncheckElements()">Clear</button>
+  
+  
+<script type="text/javascript">
+$(document).ready(function() {
+    function updateSum() {
+      var total = 0;
+      $(".sum:checked").each(function(i, n) {total += parseInt($(n).val());})
+      $("#total").val(total);
+      $("#rate").val(Math.ceil(total * 100 / 27));
+    }
+    // run the update on every checkbox change and on startup
+    $("input.sum").change(updateSum);
+    updateSum();
+})
+
+function uncheckElements()
+{
+ var uncheck=document.getElementsByTagName('input');
+ for(var i=0;i<uncheck.length;i++)
+ {
+  if(uncheck[i].type=='checkbox')
+  {
+   uncheck[i].checked=false;
+  }
+ }
+$("#total").val("0")
+$("#rate").val("0")
+}
+</script>
+
+</body>
+   
+</html>
