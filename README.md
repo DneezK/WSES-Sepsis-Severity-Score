@@ -5,5 +5,5 @@ World Society of Emergency Surgery (WSES) designed a global prospective observat
 Given the sweeping geographical distribution of the participating medical centers, WSES Sepsis Severity Score for patients with complicated Intra-abdominal infections can be used on global level. It has shown high sensitivity, specificity, and likelihood ratio that may help us in making clinical decisions.
 
 You're free to use WSES Sepsis Severity Score calculator in two ways:
-- download and install Android application from Releases
-- download index.html and jquery.min.js into local directory
+- download and install Android application from [Releases](https://github.com/DneezK/WSES-Sepsis-Severity-Score/releases/tag/wses_apk)
+- download [index.html and jquery.min.js](https://github.com/DneezK/WSES-Sepsis-Severity-Score/archive/refs/heads/main.zip) into local directory
