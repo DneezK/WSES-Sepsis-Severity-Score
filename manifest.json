@@ -1,0 +1,18 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "WSES sepsis severity score",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "WSES SSS",
+  "start_url": "https://dneezk.github.io/WSES-Sepsis-Severity-Score/",
+  "theme_color": "#ffffff",
+  "id": "wses 3s",
+  "description": "WSES sepsis severity score calculator",
+  "lang": "en",
+  "categories": [
+    "education",
+    "health"
+  ]
+}
