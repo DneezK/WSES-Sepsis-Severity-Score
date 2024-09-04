@@ -1,9 +1,9 @@
 {
 "icons": [
-      "src": "https://dneezk.github.io/WSES-Sepsis-Severity-Score/wses_logo.png",
+   {   "src": "https://dneezk.github.io/WSES-Sepsis-Severity-Score/wses_logo.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any",
+      "purpose": "any",}
   ]
   "background_color": "#ffffff",
   "dir": "ltr",
