@@ -1,24 +1,14 @@
 {
-"icons": [
-   {   "src": "https://dneezk.github.io/WSES-Sepsis-Severity-Score/wses_logo.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"}
-  ]
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
   "name": "WSES sepsis severity score",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "WSES SSS",
-  "start_url": "https://dneezk.github.io/WSES-Sepsis-Severity-Score/",
-  "theme_color": "#ffffff",
-  "id": "wses 3s",
-  "description": "WSES sepsis severity score calculator",
-  "lang": "en",
-  "categories": [
-    "education",
-    "health"
+  "description": "Calculator of WSES sepsis severity score",
+  "start_url": "/",
+  "lang": "ru-RU",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://dneezk.github.io/WSES-Sepsis-Severity-Score/wses_logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }
