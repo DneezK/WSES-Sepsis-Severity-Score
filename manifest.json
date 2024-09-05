@@ -1,9 +1,8 @@
 {
   "name": "WSES sepsis severity score",
-  "short_name": "Sepsis Severity Score",
   "description": "Calculator of WSES sepsis severity score",
-  "start_url": "/",
-  "lang": "ru-RU",
+  "start_url": "https://dneezk.github.io/WSES-Sepsis-Severity-Score/",
+  "lang": "en",
   "display": "standalone",
   "icons": [
     {
@@ -11,5 +10,15 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "id": "WSES SSS",
+  "short_name": "Sepsis Severity Score",
+  "scope": "https://dneezk.github.io/WSES-Sepsis-Severity-Score/",
+  "orientation": "any",
+  "categories": [
+    "education",
+    "health"
   ]
 }
