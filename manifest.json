@@ -1,5 +1,6 @@
 {
   "name": "WSES sepsis severity score",
+  "short_name": "Sepsis Severity Score",
   "description": "Calculator of WSES sepsis severity score",
   "start_url": "/",
   "lang": "ru-RU",
