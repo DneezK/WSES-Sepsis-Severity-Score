@@ -11,6 +11,6 @@ You're free to use WSES Sepsis Severity Score calculator in several ways:
 - add a shortcut for home screen on your **iphone**:
   * On your iPhone or iPad, open Chrome or Safari
   * Go to a [website](https://dneezk.github.io/WSES-Sepsis-Severity-Score/).
-  * On the right of the address bar, tap *Share* ![](https://storage.googleapis.com/support-kms-prod/Oi0DNDXtcV89telFhTPd7Okn7yoTpSfkX19z)
+  * On the right of the address bar or under it, tap *Share* ![](https://storage.googleapis.com/support-kms-prod/Oi0DNDXtcV89telFhTPd7Okn7yoTpSfkX19z)
   * Find and tap *Add to Home Screen*.
   * Confirm or edit the website details and tap *Add*.
